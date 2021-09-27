@@ -1,17 +1,17 @@
-![Workshop Banner](../workshop-threejs/images/banner.png)
+![Workshop Banner](https://github.com/ansonyuu/workshop-threejs/blob/main/images/banner.png)
 
-## ** 🚄 Speedy 3D - A Quick Intro to Three.js & React**
+## 🚄 Speedy 3D - A Quick Intro to Three.js & React
 
 This workshop was originally created for Hack The North 2021! My personal motivation was to:
 
 - learn through teaching, Feynman technique style
 - share some of the (truly incredible) things possible through Three.js
 
-📷 Workshop video found [here](https://www.youtube.com/watch?v=hgWxXJW3o6U)
-📠 Workshop slides found [here](https://www.figma.com/proto/pfudySoxh20diiG6sdAVFr/Three.js?node-id=12%3A28&scaling=scale-down&page-id=0%3A1&starting-point-node-id=12%3A28&show-proto-sidebar=1)
+📷 Workshop video found [here](https://www.youtube.com/watch?v=hgWxXJW3o6U)  
+📠 Workshop slides found [here](https://www.figma.com/proto/pfudySoxh20diiG6sdAVFr/Three.js?node-id=12%3A28&scaling=scale-down&page-id=0%3A1&starting-point-node-id=12%3A28&show-proto-sidebar=1)  
 👯‍♀️ My favorite Three.js examples [here](https://www.notion.so/ansonyu/703227ca60b64ff9bf1c7915d2f3cdad)
 
-![Workshop Table of Contents](../workshop-threejs/images/slides.png)
+![Workshop Slides](https://github.com/ansonyuu/workshop-threejs/blob/main/images/slides.png)
 
 ---
 
@@ -19,7 +19,7 @@ This workshop was originally created for Hack The North 2021! My personal motiva
 
 A quick intro to Three.js and how it can be integrated with a React based web app. We'll go through objects, meshes, camera settings, materials, controls and more so you can use 3D models in your personal portfolio or hack!
 
-![Workshop Table of Contents](../workshop-threejs/images/table.png)
+![Workshop Table of Contents](https://github.com/ansonyuu/workshop-threejs/blob/main/images/table.png)
 
 #### Learning Outcomes
 
@@ -70,4 +70,4 @@ yarn start
 
 And voila! You should see this interactive demo at localhost:3000 in your browser of choice.
 
-![Workshop Demo](../workshop-threejs/images/demo.png)
+![Workshop Demo](https://github.com/ansonyuu/workshop-threejs/blob/main/images/demo.png)
