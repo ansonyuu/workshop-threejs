@@ -1,70 +1,73 @@
-# Three.js and React Workshop
+![Workshop Banner](../workshop-threejs/images/banner.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## ** 🚄 Speedy 3D - A Quick Intro to Three.js & React**
 
-## Available Scripts
+This workshop was originally created for Hack The North 2021! My personal motivation was to:
 
-In the project directory, you can run:
+- learn through teaching, Feynman technique style
+- share some of the (truly incredible) things possible through Three.js
 
-### `yarn start`
+📷 Workshop video found [here](https://www.youtube.com/watch?v=hgWxXJW3o6U)
+📠 Workshop slides found [here](https://www.figma.com/proto/pfudySoxh20diiG6sdAVFr/Three.js?node-id=12%3A28&scaling=scale-down&page-id=0%3A1&starting-point-node-id=12%3A28&show-proto-sidebar=1)
+👯‍♀️ My favorite Three.js examples [here](https://www.notion.so/ansonyu/703227ca60b64ff9bf1c7915d2f3cdad)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![Workshop Table of Contents](../workshop-threejs/images/slides.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `yarn test`
+#### ⏱ What's to come
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+A quick intro to Three.js and how it can be integrated with a React based web app. We'll go through objects, meshes, camera settings, materials, controls and more so you can use 3D models in your personal portfolio or hack!
 
-### `yarn build`
+![Workshop Table of Contents](../workshop-threejs/images/table.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Learning Outcomes
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+By the end of the workshop, you’ll be able to:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Set up a React project to use three.js
+- Create and manipulate 3D objects
+- Use lighting, camera techniques, textures, and more to make your objects come to life :)
 
-### `yarn eject`
+#### Prerequisite Knowledge
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+In order to get the most out of this workshop you should be comfortable with the following concepts:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Basic JavaScript Syntax
+- Basic React
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### Pre-Workshop Checklist
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Before the workshop, please make sure you complete the following items:
 
-## Learn More
+- Installed web IDE. I’d recommend [VS Code](https://code.visualstudio.com/)
+- Install Node.js
+- For the smoothest experience, make sure your Node.js is up to date! We’ll be using it to install packages during the session
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Setup
 
-### Code Splitting
+To get started, clone the repository and install the dependencies.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
+git clone https://github.com/ansonyuu/workshop-threejs
+cd workshop-threejs
+yarn
+```
 
-### Analyzing the Bundle Size
+If you want to start from scratch and follow the tutorial, feel free to switch to the empty starter branch. You can do so by entering the following in your command line. If you just want to see the final demo, feel free to skip this step.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+git checkout starter
+```
 
-### Making a Progressive Web App
+To run the demo, use the following command
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```
+yarn start
+```
 
-### Advanced Configuration
+And voila! You should see this interactive demo at localhost:3000 in your browser of choice.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Workshop Demo](../workshop-threejs/images/demo.png)
