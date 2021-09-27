@@ -15,13 +15,13 @@ This workshop was originally created for Hack The North 2021! My personal motiva
 
 ---
 
-#### ⏱ What's to come
+## ⏱ What's to come
 
 A quick intro to Three.js and how it can be integrated with a React based web app. We'll go through objects, meshes, camera settings, materials, controls and more so you can use 3D models in your personal portfolio or hack!
 
 ![Workshop Table of Contents](https://github.com/ansonyuu/workshop-threejs/blob/main/images/table.png)
 
-#### Learning Outcomes
+### Learning Outcomes
 
 By the end of the workshop, you’ll be able to:
 
@@ -29,14 +29,14 @@ By the end of the workshop, you’ll be able to:
 - Create and manipulate 3D objects
 - Use lighting, camera techniques, textures, and more to make your objects come to life :)
 
-#### Prerequisite Knowledge
+### Prerequisite Knowledge
 
 In order to get the most out of this workshop you should be comfortable with the following concepts:
 
 - Basic JavaScript Syntax
 - Basic React
 
-#### Pre-Workshop Checklist
+### Pre-Workshop Checklist
 
 Before the workshop, please make sure you complete the following items:
 
@@ -46,7 +46,7 @@ Before the workshop, please make sure you complete the following items:
 
 ---
 
-## Setup
+## 🥳 Setup
 
 To get started, clone the repository and install the dependencies.
 
